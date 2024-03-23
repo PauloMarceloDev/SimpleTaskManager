@@ -1,0 +1,7 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e3d295a2_002Da73d_002D4e73_002D913a_002Dc8953798f587/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Entities_ShouldHave_PrivateParameterlessConstructor" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::6E8FC06B-0D5D-420A-8461-B9DB13C8D441::net8.0::SimpleTaskManager.Application.UnitTests.Tasks.CreateTaskCommandValidatorTests.Validates_ValidCommand_Successfully&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::6E8FC06B-0D5D-420A-8461-B9DB13C8D441::net8.0::SimpleTaskManager.Application.UnitTests.Tasks.CreateTaskCommandValidatorTests.Validates_InvalidTitleLength_Fails&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

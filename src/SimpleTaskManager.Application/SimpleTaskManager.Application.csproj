@@ -14,4 +14,8 @@
       <ProjectReference Include="..\SimpleTaskManager.Domain\SimpleTaskManager.Domain.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+        <InternalsVisibleTo Include="SimpleTaskManager.Application.UnitTests" />
+    </ItemGroup>
+
 </Project>
