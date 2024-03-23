@@ -15,7 +15,6 @@ public sealed class CreateTaskCommandValidator : AbstractValidator<CreateTaskCom
             .MaximumLength(2048);
         
         RuleFor(c => c.Priority)
-            .NotEmpty()
             .IsInEnum();
         
         RuleFor(c => c.DeadlineOnUtc)

@@ -19,7 +19,7 @@ internal sealed class DeleteTaskCommandHandler(
             return Result.Failure<TaskResponse>(TaskErrors.NotFound);
         }
         
-        taskRepository.Delete(task.Id);
+        taskRepository.Delete(task);
         await unitOfWork.SaveChangesAsync(cancellationToken);
 
         return Result.Success();

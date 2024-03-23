@@ -10,6 +10,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PWSoftware.BaseApplication"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleTaskManager.Application", "src\SimpleTaskManager.Application\SimpleTaskManager.Application.csproj", "{A5CDEAA9-A2EF-40B2-AA30-C215FFCA7133}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleTaskManager.Infrastructure", "src\SimpleTaskManager.Infrastructure\SimpleTaskManager.Infrastructure.csproj", "{EB724027-9785-4CFF-8AA0-509552168438}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleTaskManager.Api", "src\SimpleTaskManager.Api\SimpleTaskManager.Api.csproj", "{01636103-54D1-4924-A2DF-B2CB02AFC676}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +24,8 @@ Global
 		{48EA3840-E653-4783-9074-FEFDC2D01608} = {017ED4FD-E4AC-400D-9952-C50D266CD473}
 		{F5D09B31-ACC7-4340-9A7F-2974B7FB5879} = {017ED4FD-E4AC-400D-9952-C50D266CD473}
 		{A5CDEAA9-A2EF-40B2-AA30-C215FFCA7133} = {017ED4FD-E4AC-400D-9952-C50D266CD473}
+		{EB724027-9785-4CFF-8AA0-509552168438} = {017ED4FD-E4AC-400D-9952-C50D266CD473}
+		{01636103-54D1-4924-A2DF-B2CB02AFC676} = {017ED4FD-E4AC-400D-9952-C50D266CD473}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{227561BD-1463-4ECC-8650-B94C447CE1A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -38,5 +44,13 @@ Global
 		{A5CDEAA9-A2EF-40B2-AA30-C215FFCA7133}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5CDEAA9-A2EF-40B2-AA30-C215FFCA7133}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5CDEAA9-A2EF-40B2-AA30-C215FFCA7133}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB724027-9785-4CFF-8AA0-509552168438}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB724027-9785-4CFF-8AA0-509552168438}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB724027-9785-4CFF-8AA0-509552168438}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB724027-9785-4CFF-8AA0-509552168438}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01636103-54D1-4924-A2DF-B2CB02AFC676}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01636103-54D1-4924-A2DF-B2CB02AFC676}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01636103-54D1-4924-A2DF-B2CB02AFC676}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01636103-54D1-4924-A2DF-B2CB02AFC676}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

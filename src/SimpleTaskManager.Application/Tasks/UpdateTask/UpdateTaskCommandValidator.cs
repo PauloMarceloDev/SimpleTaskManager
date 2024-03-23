@@ -19,7 +19,6 @@ public sealed class UpdateTaskCommandValidator : AbstractValidator<UpdateTaskCom
             .MaximumLength(2048);
         
         RuleFor(c => c.Priority)
-            .NotEmpty()
             .IsInEnum();
         
         RuleFor(c => c.DeadlineOnUtc)

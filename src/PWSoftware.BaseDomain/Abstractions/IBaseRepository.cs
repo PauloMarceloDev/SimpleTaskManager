@@ -10,5 +10,5 @@ public interface IBaseRepository<T>
     
     void Update(T entity);
 
-    void Delete(int id);
+    void Delete(T entity);
 }
